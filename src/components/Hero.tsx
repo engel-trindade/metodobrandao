@@ -6,9 +6,9 @@ const Hero = () => {
           <img 
             src="/images/bg_academia.png" 
             alt="Background de academia" 
-            className="w-full h-[867px] shrink-0 opacity-10 absolute left-0 top-0 object-cover mix-blend-luminosity"
+            className="w-full h-[867px] shrink-0 opacity-20 absolute left-0 top-0 z-0 object-cover mix-blend-luminosity"
           />
-          <div className="w-full h-[867px] shrink-0 opacity-10 absolute left-0 top-0 bg-gradient-to-br from-[#6C4BA3]/20 to-transparent" />
+          <div className="w-full h-[867px] shrink-0 opacity-10 absolute left-0 top-0 z-10 bg-gradient-to-br from-[#6C4BA3]/20 to-transparent" />
         </div>
         
         <div className="w-full h-[378px] shrink-0 absolute left-0 top-[614px] max-sm:top-[400px]">
