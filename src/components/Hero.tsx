@@ -13,7 +13,12 @@ const Hero = () => {
           <div className="bg-gradient-to-t from-[#1A1A1A] to-transparent w-full h-[325px] shrink-0 absolute left-0 top-0" />
         </div>
         
-        <div className="w-[738px] h-[922px] shrink-0 absolute right-0 top-[70px] max-sm:w-[300px] max-sm:h-[400px] max-sm:right-5 bg-gradient-to-br from-[#6C4BA3]/30 to-[#333]/50 rounded-lg" />
+        <img 
+          src="/images/foto_yuri_hero.png" 
+          alt="Yuri Brandão - Personal Trainer" 
+          className="w-[738px] h-[922px] shrink-0 absolute right-0 top-[70px] max-sm:w-[300px] max-sm:h-[400px] max-sm:right-5 rounded-lg object-cover"
+          loading="lazy"
+        />
       </div>
       
       <div className="flex w-[492px] flex-col items-start gap-20 absolute h-[598px] left-40 top-40 max-md:w-[calc(100%_-_80px)] max-md:max-w-[600px] max-md:left-10 max-sm:w-[calc(100%_-_40px)] max-sm:gap-[30px] max-sm:left-5 max-sm:top-[100px]">

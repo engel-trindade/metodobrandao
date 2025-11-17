@@ -8,17 +8,20 @@ const Testimonials = () => {
     {
       text: '"Moro fora do Brasil e minha rotina demanda muito tempo e nessa época havia tido meu segundo filho e não estava satisfeita com meu corpo . Nunca havia treinado e nunca gostei de treinar e fui bem sincera com Yuri , tenho q emagrecer 10 kg para fazer minha cirurgia, CONSEGUIMOS PERDE 15kg e corrigimos minha diastese abdominal de 3 cm. Obg pela cobrança e pela instrução "',
       authorName: 'Tainá Trindade',
-      authorTitle: 'Mamãe que nunca treino'
+      authorTitle: 'Mamãe que nunca treino',
+      imageSrc: '/images/foto_taina.png'
     },
     {
       text: '"Sou amigo do Yuri a mais de 10 anos e ele sempre me convidou a treinar mas nunca fui do meio, quando comecei e entendi o processo, comecei a consultoria com ele e assim se passaram de 4 anos de treino do 0 ao nível de preparação de atleta, onde tenho objetivo de competir no bodybuilding e continuamos."',
       authorName: 'Gabriel Randow',
-      authorTitle: 'Sedentário ao atleta'
+      authorTitle: 'Sedentário ao atleta',
+      imageSrc: '/images/foto_gabriel.png'
     },
     {
       text: '"Pós pandemia, dividi um agachamento livre com Yuri depois daquele momento, toda sexta era legday de 3h, ele me obrigava a treinar mobilidade para diminuir minhas dores e aumentar minha capacidade de fazer força durante os treinos, com isso confiei meus treinos a ele e assim lapidamos meu shape com detalhes do treino assim criamos detalhes no meu físico."',
       authorName: 'Pedro Lucas',
-      authorTitle: 'Construção de detalhes no físico'
+      authorTitle: 'Construção de detalhes no físico',
+      imageSrc: '/images/foto_pedro.png'
     }
   ];
 
@@ -39,6 +42,7 @@ const Testimonials = () => {
             text={testimonial.text}
             authorName={testimonial.authorName}
             authorTitle={testimonial.authorTitle}
+            imageSrc={testimonial.imageSrc}
           />
         ))}
       </div>
