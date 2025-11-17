@@ -2,12 +2,14 @@ interface TestimonialCardProps {
   text: string;
   authorName: string;
   authorTitle: string;
+  imageSrc?: string;
 }
 
 const TestimonialCard = ({
   text,
   authorName,
-  authorTitle
+  authorTitle,
+  imageSrc
 }: TestimonialCardProps) => {
   return (
     <article className="flex items-center relative shrink-0 transition-transform duration-[0.3s] ease-[ease] max-md:flex-col max-md:max-w-full min-w-[1101px] max-md:min-w-full">
@@ -24,9 +26,18 @@ const TestimonialCard = ({
           </div>
         </div>
       </div>
-      <div className="w-[545px] h-[545px] backdrop-blur-[20px] relative rounded-[0_16px_16px_0] max-md:w-full max-md:rounded-[0_0_16px_16px] bg-gradient-to-br from-[#6C4BA3]/30 to-[#333]/50 flex items-center justify-center">
-        <span className="text-white text-lg opacity-50">Foto do cliente</span>
-      </div>
+      {imageSrc ? (
+        <img 
+          src={imageSrc} 
+          alt={`${authorName} - Cliente`}
+          className="w-[545px] h-[545px] relative rounded-[0_16px_16px_0] max-md:w-full max-md:rounded-[0_0_16px_16px] object-cover"
+          loading="lazy"
+        />
+      ) : (
+        <div className="w-[545px] h-[545px] backdrop-blur-[20px] relative rounded-[0_16px_16px_0] max-md:w-full max-md:rounded-[0_0_16px_16px] bg-gradient-to-br from-[#6C4BA3]/30 to-[#333]/50 flex items-center justify-center">
+          <span className="text-white text-lg opacity-50">Foto do cliente</span>
+        </div>
+      )}
     </article>
   );
 };

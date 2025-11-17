@@ -1,9 +1,12 @@
 const About = () => {
   return (
     <section className="flex w-full max-w-[1440px] items-center gap-20 relative px-40 py-0 max-md:flex-col max-md:gap-10 max-md:px-10 max-md:py-0 max-sm:gap-[30px] max-sm:px-5 max-sm:py-0" id="sobre">
-      <div className="w-[456px] h-[811px] shrink-0 aspect-[456.00/810.67] relative rounded-[10px] max-md:w-full max-md:max-w-[400px] max-md:h-auto bg-gradient-to-br from-[#6C4BA3] to-[#333] flex items-center justify-center">
-        <span className="text-white text-lg opacity-50">Foto do Yuri Brandão</span>
-      </div>
+      <img 
+        src="/images/foto_yuri_sobre.png" 
+        alt="Yuri Brandão - Personal Trainer especializado em Biomecânica"
+        className="w-[456px] h-[811px] shrink-0 aspect-[456.00/810.67] relative rounded-[10px] max-md:w-full max-md:max-w-[400px] max-md:h-auto object-cover"
+        loading="lazy"
+      />
       
       <div className="flex flex-col items-start gap-10 relative">
         <div className="flex flex-col items-start gap-1.5 w-full relative">

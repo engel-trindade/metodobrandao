@@ -5,9 +5,12 @@ const CTA = () => {
       
       <div className="flex w-[1024px] justify-center items-center gap-[84px] absolute left-1/2 -translate-x-1/2 h-[602px] px-40 py-0 top-0 max-md:flex-col max-md:gap-10 max-md:w-full max-md:px-10 max-md:py-0 max-sm:gap-[30px] max-sm:px-5 max-sm:py-0">
         <div className="w-[425.5px] h-[602px] shrink-0 relative max-md:w-full max-md:max-w-[400px]">
-          <div className="w-full h-full opacity-70 rounded-[10px] bg-gradient-to-br from-[#6C4BA3]/40 to-[#333]/60 flex items-center justify-center">
-            <span className="text-white text-lg opacity-50">Imagem casal treinando</span>
-          </div>
+          <img 
+            src="/images/foto_casal_treino.png" 
+            alt="Casal treinando juntos"
+            className="w-full h-full opacity-70 rounded-[10px] object-cover"
+            loading="lazy"
+          />
           <div className="w-full h-[162px] absolute left-0 top-[440px] bottom-0 bg-gradient-to-t from-[#1A1A1A] to-transparent" />
         </div>
         

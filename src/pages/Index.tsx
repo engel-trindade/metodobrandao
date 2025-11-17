@@ -32,6 +32,7 @@ const Index = () => {
         title="BRANDÃO crew"
         subtitle="Consultoria de Treino"
         description="Eleve seu corpo ao máximo com base em avaliação individual, aplicando princípios da biomecânica individual para eliminar dores, melhorar postura e elevar performance. Para homens e mulheres que buscam treinos personalizados."
+        imageSrc="/images/foto_brandao_crew.png"
       />
       
       <ServiceCard
@@ -39,6 +40,7 @@ const Index = () => {
         subtitle="Reabilitação de Diástase"
         description="Treinos de recuperação e autocuidado para mamães pós-parto. Foco no tratamento de diástase abdominal. Recupere sua energia e autoestima com treinos que respeitem o seu corpo."
         reverse={true}
+        imageSrc="/images/foto_coremom.png"
       />
       
       <Testimonials />

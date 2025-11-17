@@ -3,21 +3,32 @@ interface ServiceCardProps {
   subtitle: string;
   description: string;
   reverse?: boolean;
+  imageSrc?: string;
 }
 
 const ServiceCard = ({
   title,
   subtitle,
   description,
-  reverse = false
+  reverse = false,
+  imageSrc
 }: ServiceCardProps) => {
   return (
     <div className={`flex items-center gap-20 w-full max-w-[1440px] relative px-40 py-0 max-md:px-10 max-md:py-0 max-sm:gap-[30px] max-sm:px-5 max-sm:py-0 ${reverse ? 'max-md:flex-col-reverse' : 'max-md:flex-col'}`}>
       {reverse ? (
         <>
-          <div className="w-[545px] h-[545px] shrink-0 relative max-md:w-full max-md:max-w-[500px] bg-gradient-to-br from-[#6C4BA3]/40 to-[#333]/60 rounded-[10px] flex items-center justify-center">
-            <span className="text-white text-lg opacity-50">Imagem do serviço</span>
-          </div>
+          {imageSrc ? (
+            <img 
+              src={imageSrc} 
+              alt={`${title} - Programa de treinamento`}
+              className="w-[545px] h-[545px] shrink-0 relative max-md:w-full max-md:max-w-[500px] rounded-[10px] object-cover"
+              loading="lazy"
+            />
+          ) : (
+            <div className="w-[545px] h-[545px] shrink-0 relative max-md:w-full max-md:max-w-[500px] bg-gradient-to-br from-[#6C4BA3]/40 to-[#333]/60 rounded-[10px] flex items-center justify-center">
+              <span className="text-white text-lg opacity-50">Imagem do serviço</span>
+            </div>
+          )}
           <div className="flex w-[495px] flex-col items-start gap-[30px] shrink-0 relative max-md:w-full">
             <div className="flex flex-col items-start gap-1.5 w-full relative">
               <h3 className="text-white text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-sm:text-2xl" style={{ fontFamily: 'Outfit, sans-serif' }}>
@@ -53,9 +64,18 @@ const ServiceCard = ({
               </span>
             </button>
           </div>
-          <div className="w-[516px] h-[523px] relative max-md:w-full max-md:max-w-[500px] bg-gradient-to-br from-[#6C4BA3]/40 to-[#333]/60 rounded-[10px] flex items-center justify-center">
-            <span className="text-white text-lg opacity-50">Imagem do serviço</span>
-          </div>
+          {imageSrc ? (
+            <img 
+              src={imageSrc} 
+              alt={`${title} - Programa de treinamento`}
+              className="w-[516px] h-[523px] relative max-md:w-full max-md:max-w-[500px] rounded-[10px] object-cover"
+              loading="lazy"
+            />
+          ) : (
+            <div className="w-[516px] h-[523px] relative max-md:w-full max-md:max-w-[500px] bg-gradient-to-br from-[#6C4BA3]/40 to-[#333]/60 rounded-[10px] flex items-center justify-center">
+              <span className="text-white text-lg opacity-50">Imagem do serviço</span>
+            </div>
+          )}
         </>
       )}
     </div>
