@@ -3,6 +3,11 @@ const Hero = () => {
     <section className="h-[924px] w-full relative max-sm:h-[700px]" id="inicio">
       <div className="w-full h-[1007px] shrink-0 absolute left-0 top-0 max-sm:h-[700px]">
         <div className="w-full h-[924px] shrink-0 absolute left-0 top-0">
+          <img 
+            src="/images/bg_academia.png" 
+            alt="Background de academia" 
+            className="w-full h-[867px] shrink-0 opacity-10 absolute left-0 top-0 object-cover mix-blend-luminosity"
+          />
           <div className="w-full h-[867px] shrink-0 opacity-10 absolute left-0 top-0 bg-gradient-to-br from-[#6C4BA3]/20 to-transparent" />
         </div>
         
