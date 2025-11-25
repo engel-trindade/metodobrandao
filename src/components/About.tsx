@@ -1,4 +1,5 @@
 import VideoPlayer from './VideoPlayer';
+import StatCard from './StatCard';
 
 const About = () => {
   return (
@@ -23,32 +24,9 @@ const About = () => {
         </div>
         
         <div className="flex items-start gap-4 relative max-lg:gap-3 max-md:flex-wrap max-md:justify-center">
-          <div className="flex h-[127px] flex-col justify-center items-center gap-4 shadow-[0_20px_40px_0_rgba(0,0,0,0.10)] backdrop-blur-[10px] relative bg-[#1F1F1F] px-4 py-2.5 rounded-[10px] max-sm:min-w-[120px]">
-            <div className="w-[145px] h-[52px] shrink-0 text-[#9875D2] text-center text-[50px] font-normal leading-[0] capitalize relative max-sm:w-[100px] max-sm:text-[40px]">
-              100+
-            </div>
-            <div className="text-[#909090] text-center text-base font-normal leading-[20.8px] relative max-sm:text-sm">
-              Clientes Satisfeitos
-            </div>
-          </div>
-          
-          <div className="flex h-[127px] flex-col justify-center items-center gap-4 shadow-[0_20px_40px_0_rgba(0,0,0,0.10)] backdrop-blur-[10px] relative bg-[#1F1F1F] px-4 py-2.5 rounded-[10px] max-sm:min-w-[120px]">
-            <div className="w-[145px] h-[52px] shrink-0 text-[#9875D2] text-center text-[50px] font-normal leading-[0] capitalize relative max-sm:w-[100px] max-sm:text-[40px]">
-              5
-            </div>
-            <div className="text-[#909090] text-center text-base font-normal leading-[20.8px] relative max-sm:text-sm">
-              Anos de Experiência
-            </div>
-          </div>
-          
-          <div className="flex h-[127px] flex-col justify-center items-center gap-4 shadow-[0_20px_40px_0_rgba(0,0,0,0.10)] backdrop-blur-[10px] relative bg-[#1F1F1F] px-4 py-2.5 rounded-[10px] max-sm:min-w-[120px]">
-            <div className="w-[145px] h-[52px] shrink-0 text-[#9875D2] text-center text-[50px] font-normal leading-[0] capitalize relative max-sm:w-[100px] max-sm:text-[40px]">
-              15
-            </div>
-            <div className="text-[#909090] text-center text-base font-normal leading-[20.8px] relative max-sm:text-sm">
-              Anos no Esporte
-            </div>
-          </div>
+          <StatCard value={100} suffix="+" label="Clientes Satisfeitos" />
+          <StatCard value={5} label="Anos de Experiência" />
+          <StatCard value={15} label="Anos no Esporte" />
         </div>
       </div>
     </section>
