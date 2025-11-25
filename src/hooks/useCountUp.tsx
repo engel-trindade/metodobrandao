@@ -5,13 +5,15 @@ interface UseCountUpOptions {
   duration?: number;
   suffix?: string;
   threshold?: number;
+  delay?: number;
 }
 
 export const useCountUp = ({ 
   end, 
   duration = 2000, 
   suffix = '', 
-  threshold = 0.2 
+  threshold = 0.2,
+  delay = 0
 }: UseCountUpOptions) => {
   const [count, setCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
@@ -41,27 +43,31 @@ export const useCountUp = ({
   useEffect(() => {
     if (!isVisible) return;
 
-    let startTime: number | null = null;
-    let animationFrame: number;
+    const delayTimeout = setTimeout(() => {
+      let startTime: number | null = null;
+      let animationFrame: number;
 
-    const animate = (currentTime: number) => {
-      if (!startTime) startTime = currentTime;
-      const progress = Math.min((currentTime - startTime) / duration, 1);
-      
-      // Easing function (ease-out)
-      const easeOutQuart = 1 - Math.pow(1 - progress, 4);
-      
-      setCount(Math.floor(easeOutQuart * end));
+      const animate = (currentTime: number) => {
+        if (!startTime) startTime = currentTime;
+        const progress = Math.min((currentTime - startTime) / duration, 1);
+        
+        // Easing function (ease-out-cubic - mais suave)
+        const easeOutCubic = 1 - Math.pow(1 - progress, 2);
+        
+        setCount(Math.floor(easeOutCubic * end));
 
-      if (progress < 1) {
-        animationFrame = requestAnimationFrame(animate);
-      }
-    };
+        if (progress < 1) {
+          animationFrame = requestAnimationFrame(animate);
+        }
+      };
 
-    animationFrame = requestAnimationFrame(animate);
+      animationFrame = requestAnimationFrame(animate);
 
-    return () => cancelAnimationFrame(animationFrame);
-  }, [isVisible, end, duration]);
+      return () => cancelAnimationFrame(animationFrame);
+    }, delay);
+
+    return () => clearTimeout(delayTimeout);
+  }, [isVisible, end, duration, delay]);
 
   return { count, suffix, ref };
 };
