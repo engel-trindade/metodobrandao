@@ -1,8 +1,6 @@
 import { Instagram, Phone, Mail } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="flex h-auto flex-col items-start gap-8 w-full relative px-40 py-20 max-md:px-10 max-md:py-20 max-sm:px-5 max-sm:py-[60px]">
+  return <footer className="flex h-auto flex-col items-start gap-8 w-full relative px-40 py-20 max-md:px-10 max-md:py-20 max-sm:px-5 max-sm:py-[60px]">
       <div className="flex flex-col items-start gap-4 w-full relative px-0 py-10 border-t-[#909090] border-t border-solid">
         <div className="w-[260px] h-6 relative">
           <h3 className="text-white text-xl font-bold leading-6 tracking-[0.2px] absolute w-[260px] h-6 left-0 top-0">
@@ -13,9 +11,9 @@ const Footer = () => {
         <div className="flex items-start gap-[100px] w-full relative max-md:flex-col max-md:gap-10">
           <div className="flex flex-col items-start gap-4 relative">
             <p className="w-[377px] text-[#909090] text-lg font-normal leading-[23.4px] tracking-[0.18px] relative max-sm:w-full max-sm:text-base">
-              Acredito que o treino é mais do que uma sequência de
-              exercícios, é uma ferramentas para curar dores resgatar
-              confiança e transformar vidas.
+              
+
+Acredito que o treino é mais do que uma sequência de exercícios, é uma ferramentas para curar dores resgatar confiança e transformar vidas.
             </p>
           </div>
           
@@ -73,8 +71,6 @@ const Footer = () => {
           © 2025. Todos os direitos reservados a @wedatta
         </p>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
