@@ -24,9 +24,9 @@ const About = () => {
         </div>
         
         <div className="flex items-start gap-4 relative max-lg:gap-3 max-md:flex-wrap max-md:justify-center">
-          <StatCard value={100} suffix="+" label="Clientes Satisfeitos" />
-          <StatCard value={5} label="Anos de Experiência" />
-          <StatCard value={15} label="Anos no Esporte" />
+          <StatCard value={100} suffix="+" label="Clientes Satisfeitos" delay={0} />
+          <StatCard value={5} label="Anos de Experiência" delay={300} />
+          <StatCard value={15} label="Anos no Esporte" delay={600} />
         </div>
       </div>
     </section>
