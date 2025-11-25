@@ -2,7 +2,7 @@ import VideoPlayer from './VideoPlayer';
 
 const About = () => {
   return (
-    <section className="flex w-full max-w-[1440px] items-center gap-20 relative px-40 py-0 max-md:flex-col max-md:gap-10 max-md:px-10 max-md:py-0 max-sm:gap-[30px] max-sm:px-5 max-sm:py-0" id="sobre">
+    <section className="flex w-full max-w-[1440px] items-center gap-20 relative px-40 py-0 max-lg:px-20 max-lg:gap-12 max-md:flex-col max-md:gap-10 max-md:px-10 max-md:py-0 max-sm:gap-[30px] max-sm:px-5 max-sm:py-0" id="sobre">
       <VideoPlayer 
         videoId="dPYjSAn9g28"
         className="w-[456px] h-[811px] shrink-0 aspect-[456.00/810.67] relative rounded-[10px] max-md:w-full max-md:max-w-[400px] max-md:h-auto object-cover"
@@ -22,7 +22,7 @@ const About = () => {
           </p>
         </div>
         
-        <div className="flex items-start gap-4 relative max-md:flex-wrap max-md:justify-center">
+        <div className="flex items-start gap-4 relative max-lg:gap-3 max-md:flex-wrap max-md:justify-center">
           <div className="flex h-[127px] flex-col justify-center items-center gap-4 shadow-[0_20px_40px_0_rgba(0,0,0,0.10)] backdrop-blur-[10px] relative bg-[#1F1F1F] px-4 py-2.5 rounded-[10px] max-sm:min-w-[120px]">
             <div className="w-[145px] h-[52px] shrink-0 text-[#9875D2] text-center text-[50px] font-normal leading-[0] capitalize relative max-sm:w-[100px] max-sm:text-[40px]">
               100+

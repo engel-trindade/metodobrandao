@@ -21,13 +21,13 @@ const Hero = () => {
         <img 
           src="/images/foto_yuri_hero.png" 
           alt="Yuri Brandão - Personal Trainer" 
-          className="w-[738px] h-[922px] shrink-0 absolute right-0 top-[70px] max-sm:w-[300px] max-sm:h-[400px] max-sm:right-5 rounded-lg object-cover"
+          className="w-[738px] h-[922px] shrink-0 absolute right-0 top-[70px] max-lg:w-[600px] max-lg:h-[750px] max-md:w-[450px] max-md:h-[563px] max-sm:w-[300px] max-sm:h-[400px] max-sm:right-5 rounded-lg object-cover"
           loading="lazy"
         />
       </div>
       
-      <div className="flex w-[492px] flex-col items-start gap-20 absolute h-[598px] left-40 top-40 max-md:w-[calc(100%_-_80px)] max-md:max-w-[600px] max-md:left-10 max-sm:w-[calc(100%_-_40px)] max-sm:gap-[30px] max-sm:left-5 max-sm:top-[100px]">
-        <div className="flex w-[492px] flex-col items-start gap-4 relative max-md:w-full">
+      <div className="flex w-full max-w-[492px] flex-col items-start gap-20 absolute h-auto left-40 top-40 max-lg:left-10 max-lg:max-w-[450px] max-md:w-[calc(100%_-_80px)] max-md:max-w-[600px] max-md:left-10 max-sm:w-[calc(100%_-_40px)] max-sm:gap-[30px] max-sm:left-5 max-sm:top-[100px]">
+        <div className="flex w-full flex-col items-start gap-4 relative">
           <h1 className="w-full text-white text-[80px] font-normal leading-[120px] tracking-[4.8px] uppercase relative max-md:text-6xl max-sm:text-[32px] max-sm:tracking-[2px] max-sm:leading-[1.2]" style={{ fontFamily: 'Anton, sans-serif' }}>
             Transforme Desafios em Triunfos!
           </h1>
