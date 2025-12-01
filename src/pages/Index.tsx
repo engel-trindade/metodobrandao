@@ -9,7 +9,7 @@ import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="flex w-full flex-col items-center gap-20 overflow-y-auto min-h-screen bg-[#1A1A1A] pb-10">
+    <div className="flex w-full flex-col items-center gap-16 overflow-y-auto min-h-screen bg-[#1A1A1A] pb-10">
       <div className="flex flex-col items-center w-full relative">
         <Header />
         <Hero />
@@ -18,11 +18,11 @@ const Index = () => {
       <About />
       
       <section className="flex flex-col justify-center items-center gap-10 w-full relative px-0 py-2" id="servicos">
-        <div className="flex flex-col justify-center items-center w-full relative px-40 py-0 max-md:px-10 max-md:py-0 max-sm:px-5 max-sm:py-0">
-        <h2 className="w-full max-w-[889px] text-white text-center text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-md:text-[32px] max-sm:text-[28px] font-anton">
+        <div className="flex flex-col justify-center items-center w-full relative px-32 py-0 max-md:px-10 max-md:py-0 max-sm:px-5 max-sm:py-0">
+        <h2 className="w-full max-w-[711px] text-white text-center text-[32px] font-normal leading-[38px] tracking-[-0.32px] uppercase relative max-md:text-[32px] max-sm:text-[28px] font-anton">
           Programas de Treinamento
         </h2>
-          <p className="w-full max-w-[710px] text-[#909090] text-center text-2xl font-normal leading-[33.6px] relative max-md:text-xl max-sm:text-lg">
+          <p className="w-full max-w-[568px] text-[#909090] text-center text-xl font-normal leading-[28px] relative max-md:text-xl max-sm:text-lg">
             Escolha seu programa
           </p>
         </div>
