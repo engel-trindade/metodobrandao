@@ -35,7 +35,7 @@ const FAQ = () => {
   return (
     <section className="flex w-full max-w-[1440px] flex-col items-center gap-[52px] relative px-40 py-0 max-md:px-10 max-md:py-0 max-sm:px-5 max-sm:py-0" id="faq">
       <header className="flex flex-col justify-center items-center w-full relative">
-        <h2 className="w-[889px] text-white text-center text-6xl font-normal leading-[72px] tracking-[-0.6px] uppercase relative max-md:w-full max-md:text-[40px] max-sm:text-[28px]" style={{ fontFamily: 'Outfit, sans-serif' }}>
+        <h2 className="w-[889px] text-white text-center text-6xl font-normal leading-[72px] tracking-[-0.6px] uppercase relative max-md:w-full max-md:text-[40px] max-sm:text-[28px]">
           Perguntas Frequentes
         </h2>
         <p className="w-[710px] text-[#909090] text-center text-[32px] font-normal leading-[48px] relative max-md:w-full max-md:text-2xl max-sm:text-xl">
