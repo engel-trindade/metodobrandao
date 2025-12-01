@@ -1,6 +1,6 @@
 import { Instagram, Phone, Mail } from 'lucide-react';
 const Footer = () => {
-  return <footer className="flex h-auto flex-col items-start gap-8 w-full relative px-40 py-20 max-md:px-10 max-md:py-20 max-sm:px-5 max-sm:py-[60px]">
+  return <footer className="flex h-auto flex-col items-start gap-8 w-full relative px-32 py-16 max-md:px-10 max-md:py-16 max-sm:px-5 max-sm:py-[48px]">
       <div className="flex flex-col items-start gap-4 w-full relative px-0 py-10 border-t-[#909090] border-t border-solid">
         <div className="w-[260px] h-6 relative">
           <h3 className="text-white text-xl font-bold leading-6 tracking-[0.2px] absolute w-[260px] h-6 left-0 top-0">

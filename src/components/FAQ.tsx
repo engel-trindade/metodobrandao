@@ -33,12 +33,12 @@ const FAQ = () => {
   };
 
   return (
-    <section className="flex w-full max-w-[1440px] flex-col items-center gap-[52px] relative px-40 py-0 max-md:px-10 max-md:py-0 max-sm:px-5 max-sm:py-0" id="faq">
+    <section className="flex w-full max-w-[1440px] flex-col items-center gap-[42px] relative px-32 py-0 max-md:px-10 max-md:py-0 max-sm:px-5 max-sm:py-0" id="faq">
       <header className="flex flex-col justify-center items-center w-full relative">
-        <h2 className="w-[889px] text-white text-center text-6xl font-normal leading-[72px] tracking-[-0.6px] uppercase relative max-md:w-full max-md:text-[40px] max-sm:text-[28px] font-anton">
+        <h2 className="w-[711px] text-white text-center text-5xl font-normal leading-[58px] tracking-[-0.48px] uppercase relative max-md:w-full max-md:text-[40px] max-sm:text-[28px] font-anton">
           Perguntas Frequentes
         </h2>
-        <p className="w-[710px] text-[#909090] text-center text-[32px] font-normal leading-[48px] relative max-md:w-full max-md:text-2xl max-sm:text-xl">
+        <p className="w-[568px] text-[#909090] text-center text-2xl font-normal leading-[38px] relative max-md:w-full max-md:text-xl max-sm:text-lg">
           Estou aqui para ajudar!
         </p>
       </header>
@@ -51,11 +51,11 @@ const FAQ = () => {
           >
             <div className="flex items-center gap-4 flex-[1_0_0] relative">
               <div className="flex flex-col justify-center items-start gap-5 flex-[1_0_0] relative">
-              <h3 className="text-white text-2xl font-normal leading-5 tracking-[0.24px] relative max-sm:text-lg font-anton">
+              <h3 className="text-white text-xl font-normal leading-5 tracking-[0.2px] relative max-sm:text-lg font-anton">
                 {item.question}
               </h3>
                 {openItems.includes(index) && (
-                  <p className="w-full text-[#909090] text-xl font-medium leading-[30px] relative max-sm:text-base">
+                  <p className="w-full text-[#909090] text-lg font-medium leading-[27px] relative max-sm:text-base">
                     {item.answer}
                   </p>
                 )}

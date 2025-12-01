@@ -55,14 +55,14 @@ const Testimonials = () => {
   return (
     <section 
       ref={sectionRef}
-      className={`flex flex-col justify-center items-center w-full relative px-40 py-0 max-md:px-10 max-sm:px-5 transition-opacity duration-1000 ${
+      className={`flex flex-col justify-center items-center w-full relative px-32 py-0 max-md:px-10 max-sm:px-5 transition-opacity duration-1000 ${
         isInView ? 'opacity-100' : 'opacity-0'
       }`}
       id="depoimentos"
     >
       <div className="flex flex-col justify-center items-center gap-10 w-full relative px-0 py-2 mb-10">
-        <div className="flex flex-col justify-center items-center w-full relative px-40 py-0 max-md:px-10 max-md:py-0 max-sm:px-5 max-sm:py-0">
-        <h2 className="w-[889px] text-white text-center text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-md:w-full max-md:text-[32px] max-sm:text-[28px] font-anton">
+        <div className="flex flex-col justify-center items-center w-full relative px-32 py-0 max-md:px-10 max-md:py-0 max-sm:px-5 max-sm:py-0">
+        <h2 className="w-[711px] text-white text-center text-[32px] font-normal leading-[38px] tracking-[-0.32px] uppercase relative max-md:w-full max-md:text-[32px] max-sm:text-[28px] font-anton">
           DEPOIMENTOS DOS ALUNOS
         </h2>
         </div>
@@ -74,7 +74,7 @@ const Testimonials = () => {
           align: "center",
           loop: true,
         }}
-        className="w-full max-w-[1200px]"
+        className="w-full max-w-[960px]"
       >
         <CarouselContent className="-ml-4">
           {testimonials.map((testimonial, index) => (
