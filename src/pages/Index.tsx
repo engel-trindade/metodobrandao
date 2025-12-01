@@ -19,9 +19,9 @@ const Index = () => {
       
       <section className="flex flex-col justify-center items-center gap-10 w-full relative px-0 py-2" id="servicos">
         <div className="flex flex-col justify-center items-center w-full relative px-40 py-0 max-md:px-10 max-md:py-0 max-sm:px-5 max-sm:py-0">
-          <h2 className="w-full max-w-[889px] text-white text-center text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-md:text-[32px] max-sm:text-[28px]">
-            Programas de Treinamento
-          </h2>
+        <h2 className="w-full max-w-[889px] text-white text-center text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-md:text-[32px] max-sm:text-[28px] font-anton">
+          Programas de Treinamento
+        </h2>
           <p className="w-full max-w-[710px] text-[#909090] text-center text-2xl font-normal leading-[33.6px] relative max-md:text-xl max-sm:text-lg">
             Escolha seu programa
           </p>
