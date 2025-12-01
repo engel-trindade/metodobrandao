@@ -16,7 +16,7 @@ const CTA = () => {
         
         <div className="flex w-full max-w-[495px] flex-col items-start gap-[70px] shrink-0 relative max-md:w-full">
           <div className="flex flex-col justify-center items-start gap-4 w-full relative">
-            <h2 className="w-full text-white text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-sm:text-2xl">
+            <h2 className="w-full text-white text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-sm:text-2xl font-anton">
               VAMOS TREINAR JUNTOS?
             </h2>
             <p className="w-full text-[#909090] text-2xl font-normal leading-[31.2px] relative max-sm:text-lg">

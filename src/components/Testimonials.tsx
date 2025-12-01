@@ -62,9 +62,9 @@ const Testimonials = () => {
     >
       <div className="flex flex-col justify-center items-center gap-10 w-full relative px-0 py-2 mb-10">
         <div className="flex flex-col justify-center items-center w-full relative px-40 py-0 max-md:px-10 max-md:py-0 max-sm:px-5 max-sm:py-0">
-          <h2 className="w-[889px] text-white text-center text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-md:w-full max-md:text-[32px] max-sm:text-[28px]">
-            DEPOIMENTOS DOS ALUNOS
-          </h2>
+        <h2 className="w-[889px] text-white text-center text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-md:w-full max-md:text-[32px] max-sm:text-[28px] font-anton">
+          DEPOIMENTOS DOS ALUNOS
+        </h2>
         </div>
       </div>
       
