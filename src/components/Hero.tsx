@@ -12,7 +12,7 @@ const Hero = () => {
         </div>
         
         <div className="w-full h-[378px] shrink-0 absolute left-0 top-[614px] max-md:top-[300px] max-sm:top-[200px]">
-          <div className="text-[220px] font-extrabold leading-[264px] tracking-[-2.2px] uppercase opacity-30 bg-clip-text absolute w-full h-[264px] left-0 top-[114px] max-md:text-[100px] max-md:top-[50%] max-md:left-1/2 max-md:-translate-x-1/2 max-md:-translate-y-1/2 max-sm:text-[80px] text-transparent bg-gradient-to-r from-white to-gray-500" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+          <div className="text-[220px] font-extrabold leading-[264px] tracking-[-2.2px] uppercase opacity-30 bg-clip-text absolute w-full h-[264px] left-0 top-[114px] max-md:text-[100px] max-md:top-[50%] max-md:left-1/2 max-md:-translate-x-1/2 max-md:-translate-y-1/2 max-sm:text-[80px] text-transparent bg-gradient-to-r from-white to-gray-500 font-oxanium">
             BRANDÃO
           </div>
           <div className="bg-gradient-to-t from-[#1A1A1A] to-transparent w-full h-[325px] shrink-0 absolute left-0 top-0" />
@@ -31,7 +31,7 @@ const Hero = () => {
       {/* Texto - primeira coisa visível em mobile */}
       <div className="flex w-full max-w-[492px] flex-col items-start gap-20 absolute h-auto left-40 top-40 max-lg:left-10 max-lg:max-w-[450px] max-md:relative max-md:left-0 max-md:top-0 max-md:w-full max-md:px-10 max-md:pt-20 max-md:pb-10 max-md:items-center max-md:text-center max-md:z-20 max-sm:px-5 max-sm:gap-[30px] pointer-events-auto">
         <div className="flex w-full flex-col items-start gap-4 relative max-md:items-center">
-          <h1 className="w-full text-white text-[80px] font-normal leading-[120px] tracking-[4.8px] uppercase relative max-md:text-center max-md:text-5xl max-md:leading-tight max-sm:text-[32px] max-sm:tracking-[2px] max-sm:leading-[1.2]" style={{ fontFamily: 'Anton, sans-serif' }}>
+          <h1 className="w-full text-white text-[80px] font-normal leading-[120px] tracking-[4.8px] uppercase relative max-md:text-center max-md:text-5xl max-md:leading-tight max-sm:text-[32px] max-sm:tracking-[2px] max-sm:leading-[1.2] font-anton">
             Transforme Desafios em Triunfos!
           </h1>
           <p className="w-full text-[#909090] text-xl font-normal leading-[30px] relative max-md:text-center max-md:max-w-[500px] max-sm:text-base">

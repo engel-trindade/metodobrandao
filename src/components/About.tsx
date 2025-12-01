@@ -11,7 +11,7 @@ const About = () => {
       
       <div className="flex flex-col items-start gap-10 relative">
         <div className="flex flex-col items-start gap-1.5 w-full relative">
-          <h2 className="text-white text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-sm:text-2xl" style={{ fontFamily: 'Outfit, sans-serif' }}>
+          <h2 className="text-white text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-sm:text-2xl">
             Quem é YURI BRANDÃO?
           </h2>
           <p className="w-full text-[#909090] text-2xl font-normal leading-9 relative max-sm:text-lg">

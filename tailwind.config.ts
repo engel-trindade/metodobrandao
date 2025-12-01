@@ -13,6 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'outfit': ['Outfit', 'sans-serif'],
+        'anton': ['Anton', 'sans-serif'],
+        'oxanium': ['Oxanium', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

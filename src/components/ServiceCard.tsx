@@ -31,7 +31,7 @@ const ServiceCard = ({
           )}
           <div className="flex w-full max-w-[495px] flex-col items-start gap-[30px] shrink-0 relative max-md:w-full">
             <div className="flex flex-col items-start gap-1.5 w-full relative">
-              <h3 className="text-white text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-sm:text-2xl" style={{ fontFamily: 'Outfit, sans-serif' }}>
+              <h3 className="text-white text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-sm:text-2xl">
                 {title}
               </h3>
               <div className="w-full text-[#9BA3AF] text-2xl font-normal leading-9 relative max-sm:text-lg">
@@ -50,7 +50,7 @@ const ServiceCard = ({
         <>
         <div className="flex w-full max-w-[524px] flex-col items-start gap-[30px] relative max-md:w-full">
           <div className="flex w-full flex-col items-start gap-1.5 relative">
-              <h3 className="text-white text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-sm:text-2xl" style={{ fontFamily: 'Outfit, sans-serif' }}>
+              <h3 className="text-white text-[40px] font-normal leading-[48px] tracking-[-0.4px] uppercase relative max-sm:text-2xl">
                 {title}
               </h3>
               <div className="w-full text-[#9BA3AF] text-2xl font-normal leading-9 relative max-sm:text-lg">
