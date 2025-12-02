@@ -3,7 +3,7 @@ import StatCard from './StatCard';
 
 const About = () => {
   return (
-    <section className="flex w-full max-w-[1440px] items-center gap-16 relative px-32 py-0 max-lg:px-20 max-lg:gap-12 max-md:flex-col max-md:gap-10 max-md:px-10 max-md:py-0 max-sm:gap-[30px] max-sm:px-5 max-sm:py-0" id="sobre">
+    <section className="flex w-full max-w-[1440px] mx-auto items-center gap-16 relative px-32 py-0 max-lg:px-20 max-lg:gap-12 max-md:flex-col max-md:gap-10 max-md:px-10 max-md:py-0 max-sm:gap-[30px] max-sm:px-5 max-sm:py-0" id="sobre">
       <VideoPlayer 
         videoId="dPYjSAn9g28"
         className="w-[365px] h-[649px] shrink-0 aspect-[456.00/810.67] relative rounded-[10px] max-md:w-full max-md:max-w-[400px] max-md:h-auto object-cover"
