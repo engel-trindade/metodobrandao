@@ -15,7 +15,7 @@ const Index = () => {
         <Hero />
       </div>
       
-      <div className="mt-20 max-md:mt-16" />
+      <div className="mt-10 max-md:mt-8" />
       
       <About />
       
