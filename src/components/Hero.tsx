@@ -1,9 +1,9 @@
 const Hero = () => {
   return (
-    <section className="h-[740px] w-full relative max-md:h-auto max-md:min-h-screen max-md:flex max-md:flex-col max-md:justify-start" id="inicio">
+    <section className="h-[820px] w-full relative max-md:h-auto max-md:min-h-screen max-md:flex max-md:flex-col max-md:justify-start" id="inicio">
       <div className="w-full max-w-[1440px] mx-auto h-full relative">
-      <div className="w-full h-[806px] shrink-0 absolute left-0 top-0 max-md:h-screen max-md:min-h-0 max-md:max-h-screen pointer-events-none">
-        <div className="w-full h-[740px] shrink-0 absolute left-0 top-0">
+      <div className="w-full h-[880px] shrink-0 absolute left-0 top-0 max-md:h-screen max-md:min-h-0 max-md:max-h-screen pointer-events-none">
+        <div className="w-full h-[820px] shrink-0 absolute left-0 top-0">
           <img 
             src="/images/bg_academia.png" 
             alt="Background de academia" 
@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="w-full h-[694px] shrink-0 opacity-10 absolute left-0 top-0 z-10 bg-gradient-to-br from-[#6C4BA3]/20 to-transparent" />
         </div>
         
-        <div className="text-[176px] font-extrabold leading-[211px] tracking-[-1.76px] uppercase opacity-30 bg-clip-text absolute left-32 top-[480px] max-lg:left-10 max-md:text-[100px] max-md:top-[50%] max-md:left-1/2 max-md:-translate-x-1/2 max-md:-translate-y-1/2 max-sm:text-[80px] text-transparent bg-gradient-to-r from-white to-gray-500 font-oxanium z-10">
+        <div className="text-[176px] font-extrabold leading-[211px] tracking-[-1.76px] uppercase opacity-20 bg-clip-text absolute left-32 top-[530px] max-lg:left-10 max-md:text-[100px] max-md:top-[50%] max-md:left-1/2 max-md:-translate-x-1/2 max-md:-translate-y-1/2 max-sm:text-[80px] text-transparent bg-gradient-to-r from-white to-gray-500 font-oxanium z-10">
           BRANDÃO
         </div>
         
