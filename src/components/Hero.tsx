@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="w-full h-[694px] shrink-0 opacity-10 absolute left-0 top-0 z-10 bg-gradient-to-br from-[#6C4BA3]/20 to-transparent" />
         </div>
         
-        <div className="text-[176px] font-extrabold leading-[211px] tracking-[-1.76px] uppercase opacity-20 bg-clip-text absolute left-32 top-[530px] max-lg:left-10 max-md:text-[100px] max-md:top-[50%] max-md:left-1/2 max-md:-translate-x-1/2 max-md:-translate-y-1/2 max-sm:text-[80px] text-transparent bg-gradient-to-r from-white to-gray-500 font-oxanium z-10">
+        <div className="text-[120px] font-extrabold leading-[144px] tracking-[-1.2px] uppercase opacity-[0.15] bg-clip-text absolute left-32 top-[650px] max-lg:left-10 max-md:text-[80px] max-md:leading-[100px] max-md:top-[50%] max-md:left-1/2 max-md:-translate-x-1/2 max-md:-translate-y-1/2 max-sm:text-[60px] max-sm:leading-[80px] text-transparent bg-gradient-to-r from-white to-gray-500 font-oxanium z-10">
           BRANDÃO
         </div>
         
