@@ -73,7 +73,7 @@ const Hero = () => {
       
       {/* Texto BRANDÃO Mobile - aparece abaixo da foto */}
       <div 
-        className="hidden max-md:block text-[60px] font-extrabold tracking-[-0.6px] uppercase opacity-[0.08] text-center w-full relative -mt-16 z-30 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500 font-oxanium max-sm:text-[48px]"
+        className="hidden max-md:block text-[80px] font-extrabold tracking-[8px] uppercase opacity-[0.08] text-center w-full relative -mt-16 z-30 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500 font-oxanium max-sm:text-[56px] max-sm:tracking-[4px] px-10 max-sm:px-5"
       >
         BRANDÃO
       </div>
