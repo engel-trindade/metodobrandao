@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="w-full h-[694px] shrink-0 opacity-10 absolute left-0 top-0 z-10 bg-gradient-to-br from-[#6C4BA3]/20 to-transparent" />
         </div>
         
-        <div className="text-[120px] font-extrabold leading-[144px] tracking-[-1.2px] uppercase opacity-[0.15] bg-clip-text absolute left-32 top-[650px] max-lg:left-10 max-md:text-[80px] max-md:leading-[100px] max-md:top-[50%] max-md:left-1/2 max-md:-translate-x-1/2 max-md:-translate-y-1/2 max-sm:text-[60px] max-sm:leading-[80px] text-transparent bg-gradient-to-r from-white to-gray-500 font-oxanium z-10">
+        <div className="text-[180px] font-extrabold leading-[200px] tracking-[-1.8px] uppercase opacity-[0.08] bg-clip-text absolute left-32 top-[620px] max-lg:left-10 max-md:text-[80px] max-md:leading-[100px] max-md:top-[50%] max-md:left-1/2 max-md:-translate-x-1/2 max-md:-translate-y-1/2 max-sm:text-[60px] max-sm:leading-[80px] text-transparent bg-gradient-to-r from-white to-gray-500 font-oxanium z-0">
           BRANDÃO
         </div>
         
@@ -22,7 +22,7 @@ const Hero = () => {
       <img 
         src="/images/foto_yuri_hero.png" 
         alt="Yuri Brandão - Personal Trainer" 
-        className="w-[590px] h-[738px] shrink-0 absolute right-0 top-[56px] max-lg:w-[480px] max-lg:h-[600px] max-md:hidden rounded-lg object-cover pointer-events-auto"
+        className="w-[590px] h-[738px] shrink-0 absolute right-0 top-[56px] max-lg:w-[480px] max-lg:h-[600px] max-md:hidden rounded-lg object-cover pointer-events-auto z-10"
         loading="lazy"
       />
       
