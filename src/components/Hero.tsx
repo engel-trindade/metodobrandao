@@ -13,7 +13,7 @@ const Hero = () => {
         </div>
         
         <div 
-          className="text-[180px] font-extrabold leading-[200px] tracking-[-1.8px] uppercase opacity-[0.05] bg-clip-text absolute left-32 top-[650px] max-lg:left-10 max-md:text-[80px] max-md:leading-[100px] max-md:top-[50%] max-md:left-1/2 max-md:-translate-x-1/2 max-md:-translate-y-1/2 max-sm:text-[60px] max-sm:leading-[80px] text-transparent bg-gradient-to-r from-white to-gray-500 font-oxanium z-0"
+          className="text-[180px] font-extrabold leading-[200px] tracking-[-1.8px] uppercase opacity-[0.05] bg-clip-text absolute left-32 top-[650px] max-lg:left-10 max-md:hidden text-transparent bg-gradient-to-r from-white to-gray-500 font-oxanium z-0"
           style={{
             maskImage: 'linear-gradient(to bottom, transparent 0%, black 25%, black 75%, transparent 100%)',
             WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 25%, black 75%, transparent 100%)'
@@ -36,7 +36,7 @@ const Hero = () => {
       <div className="flex w-full max-w-[394px] flex-col items-start gap-16 absolute h-auto left-32 top-32 max-lg:left-10 max-lg:max-w-[360px] max-md:relative max-md:left-0 max-md:top-0 max-md:w-full max-md:max-w-none max-md:px-10 max-md:pt-20 max-md:pb-10 max-md:items-center max-md:text-center max-md:z-20 max-sm:px-5 max-sm:gap-[30px] pointer-events-auto">
         <div className="flex w-full flex-col items-start gap-4 relative max-md:items-center">
           <h1 className="w-full text-white text-[64px] font-normal leading-[96px] tracking-[3.84px] uppercase relative max-md:text-center max-md:text-5xl max-md:leading-tight max-sm:text-[32px] max-sm:tracking-[2px] max-sm:leading-[1.2] font-anton">
-            Transforme Desafios em Triunfos!
+            Transforme Desafios<br className="hidden max-md:inline" /> em Triunfos!
           </h1>
           <p className="w-full text-[#909090] text-xl font-normal leading-[30px] relative max-md:text-center max-md:max-w-[500px] max-sm:text-base">
             Reabilite seu corpo, recupere sua confiança e conquiste
@@ -49,7 +49,7 @@ const Hero = () => {
             href="https://wa.me/5527999585475?text=Ol%C3%A1%20Yuri!%20%F0%9F%92%AA%20Vim%20pelo%20site%20e%20estou%20pronto(a)%20para%20transformar%20meus%20desafios%20em%20triunfos!%20Quero%20come%C3%A7ar%20a%20treinar%20corretamente%20o%20quanto%20antes!"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex justify-center items-center gap-2 relative cursor-pointer bg-[#6C4BA3] px-6 py-4 rounded-lg hover:bg-[#5a3d8a] transition-colors max-md:w-full max-md:max-w-[400px]"
+            className="flex justify-center items-center gap-2 relative cursor-pointer bg-[#6C4BA3] px-6 py-4 rounded-lg hover:bg-[#5a3d8a] transition-colors max-md:w-full"
           >
             <span className="text-white text-lg font-bold leading-5 tracking-[0.18px] relative max-sm:text-base">
               Conheça os programas de treinamento
@@ -58,12 +58,25 @@ const Hero = () => {
       </div>
       
       {/* Imagem Mobile - aparece depois do texto no fluxo */}
-      <img 
-        src="/images/foto_yuri_hero.png" 
-        alt="Yuri Brandão - Personal Trainer" 
-        className="hidden max-md:block w-full max-w-[500px] h-auto mx-auto relative z-20 rounded-lg object-cover mb-10 px-10 max-sm:px-5 pointer-events-auto"
-        loading="lazy"
-      />
+      <div className="hidden max-md:block w-full max-w-[500px] mx-auto relative z-20 px-10 max-sm:px-5 pointer-events-auto">
+        <div className="relative">
+          <img 
+            src="/images/foto_yuri_hero.png" 
+            alt="Yuri Brandão - Personal Trainer" 
+            className="w-full h-auto rounded-lg object-cover"
+            loading="lazy"
+          />
+          {/* Degradê na parte inferior da foto */}
+          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#1A1A1A] to-transparent rounded-b-lg" />
+        </div>
+      </div>
+      
+      {/* Texto BRANDÃO Mobile - aparece abaixo da foto */}
+      <div 
+        className="hidden max-md:block text-[60px] font-extrabold tracking-[-0.6px] uppercase opacity-[0.08] text-center w-full relative -mt-8 z-10 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500 font-oxanium max-sm:text-[48px]"
+      >
+        BRANDÃO
+      </div>
       </div>
     </section>
   );
