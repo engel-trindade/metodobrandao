@@ -1,4 +1,8 @@
+import { useState } from 'react';
+
 const Hero = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   return (
     <section className="h-[820px] w-full relative max-md:h-auto max-md:min-h-0 max-md:flex max-md:flex-col max-md:justify-start max-md:-mb-8" id="inicio">
       <div className="w-full max-w-[1440px] mx-auto h-full relative">
@@ -28,8 +32,8 @@ const Hero = () => {
       <img 
         src="/images/foto_yuri_hero.png" 
         alt="Yuri Brandão - Personal Trainer" 
-        className="w-[590px] h-[738px] shrink-0 absolute right-0 top-[56px] max-lg:w-[480px] max-lg:h-[600px] max-md:hidden rounded-lg object-cover pointer-events-auto z-10"
-        loading="lazy"
+        className={`w-[590px] h-[738px] shrink-0 absolute right-0 top-[56px] max-lg:w-[480px] max-lg:h-[600px] max-md:hidden rounded-lg object-cover pointer-events-auto z-10 transition-opacity duration-700 ease-out ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+        onLoad={() => setImageLoaded(true)}
       />
       
       {/* Texto - primeira coisa visível em mobile */}
@@ -63,8 +67,8 @@ const Hero = () => {
           <img 
             src="/images/foto_yuri_hero.png" 
             alt="Yuri Brandão - Personal Trainer" 
-            className="w-full h-auto rounded-lg object-cover"
-            loading="lazy"
+            className={`w-full h-auto rounded-lg object-cover transition-opacity duration-700 ease-out ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+            onLoad={() => setImageLoaded(true)}
           />
           {/* Degradê na parte inferior da foto */}
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#1A1A1A] to-transparent rounded-b-lg" />
