@@ -33,7 +33,7 @@ const Hero = () => {
       />
       
       {/* Texto - primeira coisa visível em mobile */}
-      <div className="flex w-full max-w-[394px] flex-col items-start gap-16 absolute h-auto left-32 top-32 max-lg:left-10 max-lg:max-w-[360px] max-md:relative max-md:left-0 max-md:top-0 max-md:w-full max-md:px-10 max-md:pt-20 max-md:pb-10 max-md:items-center max-md:text-center max-md:z-20 max-sm:px-5 max-sm:gap-[30px] pointer-events-auto">
+      <div className="flex w-full max-w-[394px] flex-col items-start gap-16 absolute h-auto left-32 top-32 max-lg:left-10 max-lg:max-w-[360px] max-md:relative max-md:left-0 max-md:top-0 max-md:w-full max-md:max-w-none max-md:px-10 max-md:pt-20 max-md:pb-10 max-md:items-center max-md:text-center max-md:z-20 max-sm:px-5 max-sm:gap-[30px] pointer-events-auto">
         <div className="flex w-full flex-col items-start gap-4 relative max-md:items-center">
           <h1 className="w-full text-white text-[64px] font-normal leading-[96px] tracking-[3.84px] uppercase relative max-md:text-center max-md:text-5xl max-md:leading-tight max-sm:text-[32px] max-sm:tracking-[2px] max-sm:leading-[1.2] font-anton">
             Transforme Desafios em Triunfos!
