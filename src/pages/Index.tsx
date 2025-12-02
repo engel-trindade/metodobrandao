@@ -15,8 +15,6 @@ const Index = () => {
         <Hero />
       </div>
       
-      <div className="mt-10 max-md:mt-8" />
-      
       <About />
       
       <section className="flex flex-col justify-center items-center gap-10 w-full relative px-0 py-2" id="servicos">
