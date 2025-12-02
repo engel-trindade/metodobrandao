@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="h-[820px] w-full relative max-md:h-auto max-md:min-h-screen max-md:flex max-md:flex-col max-md:justify-start" id="inicio">
+    <section className="h-[820px] w-full relative max-md:h-auto max-md:min-h-0 max-md:flex max-md:flex-col max-md:justify-start max-md:-mb-8" id="inicio">
       <div className="w-full max-w-[1440px] mx-auto h-full relative">
       <div className="w-full h-[880px] shrink-0 absolute left-0 top-0 max-md:h-screen max-md:min-h-0 max-md:max-h-screen pointer-events-none">
         <div className="w-full h-[820px] shrink-0 absolute left-0 top-0">
@@ -73,7 +73,7 @@ const Hero = () => {
       
       {/* Texto BRANDÃO Mobile - aparece abaixo da foto */}
       <div 
-        className="hidden max-md:block text-[60px] font-extrabold tracking-[-0.6px] uppercase opacity-[0.08] text-center w-full relative -mt-8 z-10 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500 font-oxanium max-sm:text-[48px]"
+        className="hidden max-md:block text-[60px] font-extrabold tracking-[-0.6px] uppercase opacity-[0.08] text-center w-full relative -mt-16 z-30 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500 font-oxanium max-sm:text-[48px]"
       >
         BRANDÃO
       </div>
