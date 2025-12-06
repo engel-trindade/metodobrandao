@@ -25,7 +25,7 @@ const Header = () => {
             Depoimentos
           </a>
           <a href="#faq" className="text-white text-lg font-normal leading-6 tracking-[0.2px] opacity-50 relative cursor-pointer hover:opacity-100 transition-opacity">
-            F&Q
+            FAQ
           </a>
           <a 
             href="https://wa.me/5527999585475?text=Ol%C3%A1%20Yuri!%20%F0%9F%92%AA%20Vim%20pelo%20site%20e%20estou%20pronto(a)%20para%20transformar%20meus%20desafios%20em%20triunfos!%20Quero%20come%C3%A7ar%20a%20treinar%20corretamente%20o%20quanto%20antes!"
@@ -55,7 +55,7 @@ const Header = () => {
             <a href="#sobre" className="text-white text-lg opacity-50 hover:opacity-100 transition-opacity" onClick={() => setIsMenuOpen(false)}>Sobre</a>
             <a href="#servicos" className="text-white text-lg opacity-50 hover:opacity-100 transition-opacity" onClick={() => setIsMenuOpen(false)}>Serviços</a>
             <a href="#depoimentos" className="text-white text-lg opacity-50 hover:opacity-100 transition-opacity" onClick={() => setIsMenuOpen(false)}>Depoimentos</a>
-            <a href="#faq" className="text-white text-lg opacity-50 hover:opacity-100 transition-opacity" onClick={() => setIsMenuOpen(false)}>F&Q</a>
+            <a href="#faq" className="text-white text-lg opacity-50 hover:opacity-100 transition-opacity" onClick={() => setIsMenuOpen(false)}>FAQ</a>
             <a 
               href="https://wa.me/5527999585475?text=Ol%C3%A1%20Yuri!%20%F0%9F%92%AA%20Vim%20pelo%20site%20e%20estou%20pronto(a)%20para%20transformar%20meus%20desafios%20em%20triunfos!%20Quero%20come%C3%A7ar%20a%20treinar%20corretamente%20o%20quanto%20antes!"
               target="_blank"
