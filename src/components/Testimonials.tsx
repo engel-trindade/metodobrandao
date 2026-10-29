@@ -10,9 +10,9 @@ const Testimonials = () => {
   
   const testimonials = [
     {
-      text: '"Moro fora do Brasil e minha rotina demanda muito tempo e nessa época havia tido meu segundo filho e não estava satisfeita com meu corpo . Nunca havia treinado e nunca gostei de treinar e fui bem sincera com Yuri , tenho q emagrecer 10 kg para fazer minha cirurgia, CONSEGUIMOS PERDE 15kg e corrigimos minha diastese abdominal de 3 cm. Obg pela cobrança e pela instrução "',
+      text: '"Moro fora do Brasil e minha rotina demanda muito tempo e nessa época havia tido meu segundo filho e não estava satisfeita com meu corpo . Nunca havia treinado e nunca gostei de treinar e fui bem sincera com Yuri , tenho q emagrecer 10 kg para fazer minha cirurgia, CONSEGUIMOS PERDER 15kg e corrigimos minha diastese abdominal de 3 cm. Obg pela cobrança e pela instrução "',
       authorName: 'Tainá Trindade',
-      authorTitle: 'Mamãe que nunca treino',
+      authorTitle: 'Mamãe que nunca treinou',
       imageSrc: '/images/foto_taina.png'
     },
     {

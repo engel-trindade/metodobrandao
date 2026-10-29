@@ -13,7 +13,7 @@ const Footer = () => {
             <p className="w-[377px] text-[#909090] text-lg font-normal leading-[23.4px] tracking-[0.18px] relative max-sm:w-full max-sm:text-base">
               
 
-Acredito que o treino é mais do que uma sequência de exercícios, é uma ferramentas para curar dores resgatar confiança e transformar vidas.
+Acredito que o treino é mais do que uma sequência de exercícios, é uma ferramenta para curar dores, resgatar confiança e transformar vidas.
             </p>
           </div>
           
@@ -68,7 +68,7 @@ Acredito que o treino é mais do que uma sequência de exercícios, é uma ferra
       
       <div className="flex justify-between items-center w-full relative">
         <p className="text-[#909090] text-base font-normal leading-5 tracking-[0.16px] relative max-sm:text-sm">
-          © 2025. Todos os direitos reservados a @wedatta
+          © {new Date().getFullYear()} Yuri Trindade Brandão. Todos os direitos reservados. Desenvolvido por @wedatta
         </p>
       </div>
     </footer>;
